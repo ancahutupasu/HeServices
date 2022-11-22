@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/important">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_people_alt_24"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_baseline_directions_run_24"
+            android:title="@string/services" />
+        <item
+            android:id="@+id/nav_deliver"
+            android:icon="@drawable/ic_baseline_drive_eta_24"
+            android:title="@string/deliver" />
+
+    </group>
+
+
+    <group android:id="@+id/communicate">
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_baseline_email_24"
+            android:title="@string/contact" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="@string/share" />
+    </group>
+</menu>
